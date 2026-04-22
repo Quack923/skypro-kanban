@@ -132,3 +132,5 @@ function PopBrowse() {
         </div>
     );
 }
+
+export default PopBrowse;

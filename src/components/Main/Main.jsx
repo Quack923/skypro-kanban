@@ -1,10 +1,14 @@
-const Main = ({ columns, onCardClick, onOpenNewCard }) => {
+import React from "react";
+import Column from "../Column/Column.jsx";
+
+const Main = ({ columns, onCardClick }) => {
   return (
     <main className="main">
       <div className="container">
         <div className="main__block">
           <div className="main__content">
-            {columns.map((column) => (
+            {}
+            {columns && columns.map((column) => (
               <Column
                 key={column.id}
                 title={column.title}
@@ -18,3 +22,5 @@ const Main = ({ columns, onCardClick, onOpenNewCard }) => {
     </main>
   );
 };
+
+export default Main;

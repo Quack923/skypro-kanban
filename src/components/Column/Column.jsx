@@ -14,3 +14,4 @@ const Column = ({ title, cards }) => {
         </div>
     );
 };
+export default Column;

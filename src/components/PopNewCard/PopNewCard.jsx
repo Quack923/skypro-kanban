@@ -101,3 +101,4 @@ function PopNewCard() {
         </div>
     );
 }
+export default PopNewCard;
